@@ -1,0 +1,226 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-width: 1000px;
+  overflow: hidden;
+  background-color: black;
+}
+ #load{
+  animation-name: anything;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes anything {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity:100%;
+  } 
+} 
+li {
+  float: left;
+  color: red;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: red;
+}
+
+.active {
+  background-color: red;
+}
+
+#a {
+  text-align: center;
+}
+
+:root {
+  --page-margin: min(2rem, 5vw);
+  color: #444;
+} 
+/* * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+  }
+  
+  .background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+  }
+  
+  .nav-list {
+    width: 70%;
+    display: flex;
+    align-items: LEFT;
+  }
+  
+  
+  .nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-list li a:hover {
+    background-color: rgb(239, 22, 22);
+  } */
+  
+  .rightnav {
+    width: 70%;
+    text-align: right;
+  }
+  .sidebar {
+      margin: 0;
+      width: 300px;
+      background-color: #f1f1f1;
+      position: absolute;
+      height: 100%;
+      overflow: none;
+    }
+    
+    .sidebar a {
+      display: block;
+      color: rgb(0, 0, 0);
+      padding: 16px;
+      text-decoration: none;
+    }
+     
+    .sidebar a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+    
+    div.contents {
+      margin-left: 300px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+    
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+      .sidebar a {float: left;}
+      div.content {margin-left: 0;}
+    }
+    
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+    section {
+      grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+  }
+  
+  section>* {
+      grid-column: center;
+  }
+  
+  .butty {
+      grid-column: center-start/-1;
+      display: grid;
+      grid-auto-flow: column;
+      gap: 20px;
+      overflow: auto;
+      padding-bottom: 1rem;
+      padding-right: 5px;
+  }
+  
+  .butty .pal {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 28rem;
+    width:30rem;
+  }
+  
+  .butty {
+      grid-column: center-start/-1;
+      display: grid;
+      grid-auto-flow: column;
+      gap: 20px;
+      overflow: auto;
+      padding-bottom: 1rem;
+      padding-left: 5px;
+      margin-top: 20px;
+  }
+  
+  .butty .pal {
+      display: grid;
+      place-content: center;
+      background-color: white;
+      color: white;
+      font-size: 1.5rem;
+      height: 28rem;
+      min-width: 13rem;
+      margin-top: 20px;
+  }
+  .Title{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+  }
+    
+    .price {
+      color: grey;
+      font-size: 22px;
+    }
+    
+    .card .bttn {
+      border: none;
+      outline: 0;
+      border-radius: 15px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 12px;
+      padding-top: 12px;
+      color: white;
+      background-color:black;
+      text-align: center;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    
+    .card .bttn:hover {
+      opacity: 0.7;
+    } 
+  
+  
+  
+  
+  
+    

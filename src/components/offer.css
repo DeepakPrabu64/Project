@@ -1,0 +1,79 @@
+.two {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 320px;
+    border-radius: 5px;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 10px;
+  }
+  .button1{
+    color: #fff;
+  }
+  .dialog {
+    display: inline-grid;
+    justify-items: center;
+    margin-left: 680px;
+    border-left: 2px;
+    border-right: 2px;
+    cursor: pointer;
+  
+  }
+  
+  .dialog:hover{
+    text-decoration: underline;
+  }
+  
+  .dialog span {
+    padding: 5px;
+  }
+  
+  .dialog button {
+    margin-right: 16px;
+    height: 24px;
+    width: 24px;
+  }
+  .two div{
+      grid-row: 2/3;
+    }
+    
+  .two:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .content {
+    padding: 2px 16px;
+    align-items: center;
+  }
+  
+  button{
+   margin-bottom: 10px;
+  }
+  button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #999;
+  }
+  
+  button:hover {background-color: #3e8e41}
+  
+  button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
